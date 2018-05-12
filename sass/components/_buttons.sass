@@ -19,10 +19,16 @@
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2)
 
   &--white
-    background-color: #fff
-    color: #777
+    background-color: $color-white
+    color: $color-grey-dark
     &::after
-      background-color: #fff
+      background-color: $color-white
+
+  &--green
+    background-color: $color-primary
+    color: $color-white
+    &::after
+      background-color: $color-primary
 
   &::after
     content: ""
